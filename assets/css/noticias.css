@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.cabecalho-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 18px 54px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.img-logo {
+    height: 60px;
+    width: 120px;
+}
+
+.cabecalho-principal-nav-link {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.titulo-pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.conteudo-form-pesquisa {
+    width: 100%;
+}
+
+.form-pesquisa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-campos {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.campo-titulo {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.botao-pesquisar {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.conteudo-sem-resultados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.sem-resultados {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fecaca;
+    border-radius: 4px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #666666;
+}
+
+.container {
+    display: grid;
+    width: 1420px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    padding: 18px 54px;
+}
+
+.card-1 {
+    padding: 12px;
+    grid-column: 1 / 4;
+}
+
+.card-2 {
+    padding: 12px;
+    grid-column: 4 / 7;
+}
+
+.card-3 {
+    padding: 12px;
+    grid-column: 7 / 10;
+}
+
+.card-4 {
+    padding: 12px;
+    grid-column: 10 / 13;
+}
+
+.conteudo-img-card {
+    display: flex;
+    flex-direction: column;
+    height: 202px;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.img-card {
+    flex-shrink: 0;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.data-card {
+    margin-bottom: 12px;
+}
+
+.titulo-card {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.texto-card {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #c8c8c8;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
